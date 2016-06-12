@@ -1,73 +1,68 @@
 html {
-       height: 100%;
-     }
-     body {
-        width: 800px;
-        height: 100%;
-           }
-      header {
-         background-color: grey;
-         padding: 5px;
-         font-size: ;
-         display: block;
-         text-align: center;
-     }
-     nav {
-       font-size: 30px;
+     height: 100%;
+   }
+   body {
+      width: 100%;
+      height: 100%;
+      font-family: sans-serif;
+      text-align: center;
+   }
 
-         float: left;
-     }
-            nav ul {
-         padding: ;
-         float: left;
-         border-bottom: ;
-         list-style-type: none;
-     }
-     nav li {
-         float: left;
-     }
-     nav li a {
-         display: block;
-         height: 25px;
-         padding: 12px 18px 8px 18px;
-         vertical-align: middle;
-     }
-     a {
-         color: ;
-     }
-     section {
-         width: 73%;
-         display: inline-block;
-         float: left;
-     }
-     aside {
-         width: 17%;
-         display: inline-block;
-         background-color:;
-         padding:;
-         min-height: 100%;
-     }
-     aside ul {
-         list-style-type: none;
-     }
-     footer {
-         width: 790px;
-         background-color:;
-         color:;
-         clear: both;
-         display: block;
-     }
-     form {
-       background-color: transparent;
-}
-       footer {
-        width: 1100px;
+   header {
+       width: 100%;
+       text-align: center;
+       text-transform: uppercase;
+       margin: 0 auto;
+       background-color: grey;
+       padding: 5px;
+       font-size: 1.5em;
+       display: block;
+   }
+   nav {
+     width: 100%;
+   }
+
+   nav ul {
+      text-align: center;
+       padding: 0 25%;
+       margin-bottom: 25px;
+       list-style-type: none;
+   }
+   nav li {
+     margin: 0 auto;
+     display: inline-block;
+   }
+   nav li a {
+       text-decoration: none;
+       color: green;
+       font-weight: bold;
+       font-size: 1.6em;
+       height: 25px;
+       padding: 12px 18px 8px 18px;
+   }
+
+
+   section {
+       width: 90%;
+       margin: 0 auto;
+       padding:;
+   }
+
+
+   h2 {
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+  article {
+     padding: 20px;
+   }
+
+
+ footer {
+        width: 100%;
+        text-align: center;
         border-style: solid;
         border-color: blue;
-        padding-left: 10%;
-        padding-right: 10%;
-         color: yellow;
-         background-color: black;
+        background-color: grey;
        }
-       .ads {
-         color: yellow;
